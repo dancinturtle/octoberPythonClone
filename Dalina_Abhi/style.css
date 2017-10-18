@@ -130,10 +130,16 @@ p{
 .subcontent a{
     text-decoration: none;
     color:#94C1DF;
+    line-height: 1.5em;
+}
+.subcontent p span{
+    color: #94C1DF;
+    font-size: 12px;
+    text-decoration: none;
 }
 footer{
     background: linear-gradient(#155477,#1973A4); 
-    padding: 45px 15px 15px 15px;
+    padding: 45px 15px 5px 15px;
     text-align: center;
 }
 
@@ -144,5 +150,7 @@ footer a{
     padding:0px 30px;
 }
 footer p{
+    margin-top: 15px;
     font-size: 8px;
+    color: #6B9FCD;
 }
