@@ -1,0 +1,160 @@
+#background {
+    width: 970px;
+    height: 1200px;
+    background-color: white;
+    padding: 15px;
+}
+
+#top{
+    border-bottom: 5px solid darkblue;
+    background-color: rgb(0, 53, 121);
+}
+
+#heading {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo {
+    width: 300px;
+    display: inline-block;
+}
+
+#topright {
+    display: inline-block;
+    margin: 0px 0px 0px 430px;
+}
+
+#textsize {
+    font-size: 17px;
+    display: block;
+    font-weight:lighter;
+}
+
+.size {
+    color: yellow;
+}
+
+#sizing {
+    color: white;
+}
+
+#seperate {
+    color: black;
+}
+
+#search {
+    background-color: rgb(71, 71, 71);
+    border-radius: 10px;
+    width: 180px;
+    display:block;
+    text-align: center;
+    padding: 15px 20px;
+    color: grey;
+}
+
+#textbox {
+    height: 30px;
+    width: 140px;
+    text-align: center;
+}
+
+#submitbutton {
+    background-color: rgb(46, 87, 149);
+    border-radius: 5px;
+}
+
+#tabs {
+    display: block;
+    background-color: rgb(46, 87, 149);
+    margin: 40px 50px 20px 50px;
+    padding: 10px 0px;
+    text-align: center;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
+}
+
+#tabs a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#sidebar {
+    margin: 0px;
+    padding: 0px;
+    display:inline-block;
+    text-align: center;
+    list-style-position: inside;
+    color: yellow;
+}
+
+#sidebar a {
+    color: white;
+}
+#sidebar li {
+    margin: 10px 0px;
+}
+
+#maincontent{
+display: inline-block;
+margin: 20px 50px 30px 20px;
+text-align: center;
+width: 700px;
+vertical-align: top;
+}
+
+#p1{
+color:white;
+}
+
+#p2{
+    color:goldenrod;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#p3{
+    color: white;
+    font-size: 15px;
+}
+
+#midsection{
+/*vertical-align: top;
+*/}
+
+#midsection div{
+    display: inline-block;
+    margin: 15px 25px 20px 25px;
+    border-top: 5px solid lightskyblue;
+    width: 430px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#midsection div a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+#footer {
+    background-color: rgb(0, 53, 121);
+    text-align: center;
+    padding: 50px 10px 5px 10px;
+}
+#footer li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+#footer a {
+    color: lightblue;
+    text-decoration: none;
+    margin: 0px auto;
+}
+
+#footer p {
+    color: lightblue;
+}
