@@ -1,0 +1,125 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 970px;
+    background: #245076;
+}
+img {
+    width: 350px;
+}
+.header a, .search {
+    display: inline-block;
+    vertical-align: top;
+}
+.search a {
+    color: yellow;
+}
+.search {
+    margin: 3px 10px 15px 250px;
+}
+.search form {
+    background: #444444;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+.button {
+    color: white;
+    background: #245076;
+    border: 2px solid silver;
+    border-radius: 4px;
+    padding: 6px 15px
+}
+#searchbar {
+    padding: 6px 20px;
+    text-align: center;
+}
+.search p {
+    margin:3px 15px 3px 60px;
+}
+.navbar{
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin: 10px 40px;
+    background: linear-gradient(#2e6799, #477ead, #2e6799)
+    /* box-shadow: 3px; */
+}
+.navbar li {
+    display: inline;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;    
+}
+.sources {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    list-style-type:none;
+    padding-top: 10px;
+}
+.sources li {
+    padding: 5px;
+}
+.sources a {
+    font-style: italic;
+    font-size: 20px;
+}
+.about {
+    display: inline-block;
+    width: 586px;
+    text-align: center;
+    vertical-align: top;
+}
+.bodyb p {
+    color: white;
+    padding: 10px;
+}
+#poem {
+    color: #d3b93f;
+    line-height: 1.5;
+    font-size: 22px;
+    font-style: italic;
+}
+#poemtitle {
+    color: white;
+    font-size: 18px;
+}
+.sources a {
+    color: white;
+}
+.bodyw {
+    background-color: #ffffff;
+    padding:20px
+}
+.bulk {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border-top: 5px solid #6da1ce;
+    padding: 5px 60px 0px 20px;
+}
+.bulk li {
+    width: 280px;
+    padding: 3px;
+}
+.footer {
+    background: linear-gradient(#245076, #417eb2);
+    text-align: center;
+    color: #6da1ce;
+}
+.footer li {
+    display: inline-block;
+    width: 250px;
+    padding: 30px 0px 10px;
+}
+#pypi, .bodyw a,.footer a{
+    color: #6da1ce;
+}
