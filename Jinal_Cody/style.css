@@ -1,0 +1,122 @@
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper-blue{
+    background-color: #2b5b84;
+    color:white;
+}
+span a{
+    color: goldenrod;
+    text-decoration: none;
+}
+.container{
+    width: 970px;
+    margin: 0 auto;   
+    text-align: right;       
+}
+.container>a{
+    position: relative;
+    right: 300px;
+}
+.search{
+    display:inline-block;
+    width: 250px;  
+    vertical-align: top;
+}
+img{
+    text-align: left;
+}
+a{
+    color: goldenrod;
+}
+.search-bar{
+    color: #bbb;
+    margin-bottom: 1.3125em;
+    border-top: 1px solid #2d3e4d;
+    border-bottom: 1px solid #070a0c;
+    background-color: #1e2933;
+    line-height: 1em;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgb(5, 0, 0);
+}
+.navbar{
+    margin: 0;
+    background-color:#3a7aad;
+    /* #2d618c;  */
+}
+.navbar li{
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+    font-size: 16px;
+}
+.navbar a{
+    color: white;
+    padding: 10px 0;
+    display: block;
+}
+.sidebar{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;    
+}
+.sidebar a{
+    color: white;
+}
+.sidebar li{
+    text-align: center;
+    list-style-type: none;
+    padding: 5px 0;
+}
+.content{
+    display: inline-block;
+    width: 670px;
+    margin-left: -5px;
+    text-align: center;    
+}
+.quote{
+    color: goldenrod;
+    font-size: 21px;
+}
+.wrapper-white{
+    color: black; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+.sub-content{
+    border-top: 4px solid #3a7aad;
+    width: 410px;
+    display: inline-block;
+    margin: 10px;
+}
+.sub-content:last-child{
+    margin: -5px;
+}
+.sub-content a{
+    color: #3a7aad;
+    text-decoration: none;
+}
+.sub-content li{
+    list-style-type: square;
+}
+.footer{
+    /* background: #2b5b84   */
+    background: linear-gradient(to bottom, #2b5b84, #4480b1);
+    text-align: center;
+    padding: 10px 0;    
+}
+.footer p{
+    display: inline-block
+}
+.footer a{
+    opacity: 50%;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer #bottom{
+    font-size: 11px;
+    display: block;
+    color: white;
+}
