@@ -1,0 +1,242 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+   }
+
+#wrapper {
+    width: 970px;
+    background: #245076;
+    height: 590px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+body {
+    width: 970px;
+    background-color:#f8f8f8;
+    margin: 0;
+    
+}
+
+#textsize {
+    padding: 10px 50px 0px 0px;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    
+}
+
+a {
+    color: #c3a907;
+    text-decoration: underline;
+}
+
+img {
+    width: 375px;
+    display: inline-block;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#login {
+    display: inline-block;
+    vertical-align: text-top;
+    background: white;
+    height: 70px;
+    width: 300px;
+    margin: 5px 0px 0px 270px;
+    background: #444444;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #272727;
+}
+
+span {
+    color: black;
+}
+
+input {
+    width: 180px;
+    height: 38px;
+    border: grey;
+    border-style: inset;
+    border-width: 2px;
+    border-color: silver;
+    background: #fff;
+    margin: 15px 0px 0px 40px;
+    display: inline-block;
+}
+
+form > div {
+    position: relative;
+  }
+  
+form > div > label {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 27px;
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+
+  #gobutton {
+    background: #245076;
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 30px;
+  }
+
+
+
+  #menubar {
+    width: 890px;
+    background: linear-gradient(to top, #3576ad, hsl(202, 43%, 54%), #3576ad);
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px #263b4d;
+}
+
+  h1 {
+      display: inline-block;
+      color: white;
+      margin: 15px 10px 10px 10px;
+      font-size: 24px;
+      font-weight: normal;
+  }
+
+
+  #navbar {
+      display: inline-block;
+      width: 250px;
+      height: 355px;
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: text-top
+  }
+
+  #infodiv {
+      display: inline-block;
+      width: 640px;
+      height: 355px;
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: text-top;
+  }
+
+
+  .nav {
+      color: white;
+      font-size: 20px;
+      text-decoration: underline;
+      margin: 20px 0px 0px 35px;
+  }
+
+  #navlist{
+      list-style-type: none;
+  }
+
+  #column_content {
+      display: block;
+      height: 220px;
+      width: 970px;
+      background: white;
+
+  }
+
+  .columns{
+      background: white;
+      height: 210px;
+      width: 400px;
+      display: inline-block;
+      border-top: 5px solid #73a7d5;
+      margin-top: 5px;
+      margin-left: 15px;
+      margin-right: 15px;
+      vertical-align: top;
+  }
+
+    #description {
+        font-size: 18px;
+        color: white;
+
+    }
+
+    #zenlist {
+        list-style-type: none;    
+    }
+
+
+
+    #zenlist li {
+        margin-top: 10px;
+        color: #d6bb3d;
+        font-size: 24px;
+        font-style: italic;
+    }
+
+    #zen {
+        margin-top: 20px;
+        color: white;
+        font-size: 24px;
+    }
+
+    span {
+        color: lightblue;
+        font-size: 12px;
+    }
+
+    h4 {
+        margin: 5px 0px;
+        font-size: 20px;
+    }
+
+    .columns > ul > li {
+        color: lightblue;
+        list-style-type: square;
+        
+    }
+
+    #footer {
+        width: 970px;
+        height: 125px;
+        background: linear-gradient(to bottom, #175c83,#217aab);
+    }
+
+    
+    h5 {
+        display: inline-block;
+        color: rgba(173, 217, 230, 0.75);
+        font-size: 20px;
+        font-weight: normal;
+        margin: 60px 20px 20px 20px;
+    }
+
+    h6 {
+        display: block;
+        color: rgba(173, 217, 230, 0.75);
+        font-size: 12px;  
+        font-weight: normal;  
+    }
+
+
+ 
+
+
+  
+
+
+
+
+
