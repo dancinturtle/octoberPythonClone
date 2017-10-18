@@ -1,0 +1,146 @@
+ 
+body {
+    background-color: #245076;
+    width: 970px;
+    margin: 0px;
+}
+header {
+    width: 970px;
+}
+
+header img {
+    display: inline-block;
+    width: 300px;
+}
+header p {
+    color: white;
+}
+header a {
+    color: yellow;
+}
+button {
+   border: 2px solid silver;
+    border-style: outset;
+    border-radius: 3px;
+    color: white;
+    background-color: #245076;
+}
+input {
+    text-align: center;
+}
+header>div {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 450px;
+    
+}
+header div div {
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px;
+}
+
+nav{
+    background-color: #487eac;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px;
+}
+nav ul {
+    display: inline-block;
+}
+nav li {
+    display: inline;
+   
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: verdana;
+    margin: 20px;
+}
+article {
+    text-align:  center;
+}
+
+article div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+
+}
+article p {
+    width: 600px;
+    color: white;
+}
+.list li {
+    margin: 10px;
+    color:yellow;
+}
+.list li a{
+    color: white;
+        
+}
+.list {
+    list-style-type: square;
+}
+.remove {
+    list-style-type: none;
+    color: yellow;
+    font-style: italic; 
+    
+}
+.remove li {
+    margin: 10px;
+}
+#zen {
+    color: white;
+    font-style: initial;
+}
+.white {
+    border-top: 3px solid #444444;
+    background-color: white;
+    text-align: center;
+    
+
+}
+.white div {
+    width: 400px;
+    display: inline-block;
+    border-top: 3px solid #487eac;
+    margin: 10px 30px;
+}
+.white div p {
+    padding: 0px 10px 0px 10px;
+}
+span {
+    color: #487eac;
+}
+.white div li {
+    
+    width: 270px;
+    margin: 0 auto;
+
+}
+footer {
+    text-align: center;
+    color: #487eac;
+    background: linear-gradient(#245076 70%,#487eac);
+}
+footer ul{
+    margin:0px;
+    padding-top: 20px;
+}
+footer li {
+    list-style-type: none;
+    display: inline;
+    margin: auto 20px;
+
+}
+footer p {
+    padding-bottom: 10px;
+    font-size: 8px;
+};
