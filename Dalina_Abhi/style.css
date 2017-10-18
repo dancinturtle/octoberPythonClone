@@ -1,0 +1,148 @@
+*{
+    margin:0 auto;
+    font: normal 100% Arial, sans-serif;
+}
+.container{
+    width: 970px;
+    background: linear-gradient(#145274, #1974A7)
+}
+header {
+    display: inline-block;
+    vertical-align: top;
+    width:970px;
+}
+header p{
+    font-size: 14px;
+    color: white;
+}
+img{
+    height:100px;
+    margin: 15px 315px 0px 15px;
+}
+.corner{
+    display:inline-block;
+    position: relative;
+    vertical-align: top;
+    text-align: center ;
+}
+.corner p{
+    margin-top:10px;
+}
+
+form{
+    display: inline-block; 
+    margin: 4px auto;
+    background-color: #444;
+    padding: 15px 30px;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px #1E262B;
+    
+}
+
+span{
+    color: #FFDD43;
+    text-decoration: underline;
+}
+
+h2{
+    color: #FFDD43;
+    font-style: italic;
+    line-height: 2em;
+}
+
+article{
+    text-align: center;
+}
+
+.content{
+    color: white;
+    display: inline-block;
+    width: 550px;
+    padding:0px 10px 10px 10px;
+}
+/* .content li{
+    list-style-image: url('Capture.PNG'); 
+} */
+.content p{
+    font-size: 12px;
+}
+sidebar{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    padding-top: 10px;
+    margin-right:40px;
+}
+sidebar a{
+    color: white;
+    line-height: 1.5em;
+}
+
+nav{
+    background: #357FAA;
+    margin: 15px auto;
+    border-radius: 8px;
+    padding: 10px;
+    width: 875px;
+    box-shadow: 2px 2px 2px #1D272D;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 5px 25px;
+}
+p{
+    display:inline-block;
+    text-align: center;
+}
+
+
+.across{
+    background: white;
+    text-align: center;
+    padding-bottom:15px;
+    
+}
+.subcontent{
+    vertical-align: top;
+    display: inline-block;
+    width: 425px;
+    margin: 0px auto;
+
+}
+.subcontent li{
+    list-style: square;
+}
+.subcontent h4{
+    border-top: solid #68A9D2 5px;
+    width: 400px;
+    margin: 0;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.subcontent p{
+    word-wrap: break-word;
+    width: 350px;
+    display:inline-block;
+    text-align: center;
+}
+.subcontent a{
+    text-decoration: none;
+    color:#94C1DF;
+}
+footer{
+    background: linear-gradient(#155477,#1973A4); 
+    padding: 45px 15px 15px 15px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #6B9FCD;
+    display: inline-block;
+    padding:0px 30px;
+}
+footer p{
+    font-size: 8px;
+}
