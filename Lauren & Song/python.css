@@ -39,6 +39,7 @@ header div div {
     background-color: #444444;
     padding: 10px;
     border-radius: 10px;
+    box-shadow:3px 3px 3px;
 }
 
 nav{
@@ -46,7 +47,7 @@ nav{
     margin: 20px;
     border-radius: 10px;
     text-align: center;
-    
+    box-shadow: 3px 3px;
 }
 nav ul {
     display: inline-block;
@@ -77,6 +78,7 @@ article p {
 }
 .list li {
     margin: 10px;
+    color:yellow;
 }
 .list li a{
     color: white;
@@ -99,7 +101,7 @@ article p {
     font-style: initial;
 }
 .white {
-    
+    border-top: 3px solid #444444;
     background-color: white;
     text-align: center;
     
@@ -126,7 +128,7 @@ span {
 footer {
     text-align: center;
     color: #487eac;
-    
+    background: linear-gradient(#245076,#487eac)
 }
 footer li {
     list-style-type: none;
