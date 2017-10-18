@@ -1,82 +1,160 @@
-* {
+#background {
+    width: 970px;
+    height: 1200px;
+    background-color: white;
+    padding: 15px;
+}
 
-    font-size: 100%;
-    outline: 0;
+#top{
+    border-bottom: 5px solid darkblue;
+    background-color: rgb(0, 53, 121);
+}
 
-    margin: 0;
-    }
+#heading {
+    display: inline-block;
+    vertical-align: top;
+}
 
-    #background {
-        width: 970px;
-        height: 650px;
-        background-color: navy;
-        padding: 10px;
-        margin: 10px;
-    }
+#logo {
+    width: 300px;
+    display: inline-block;
+}
 
-    #head {
-        width: 960px;
-        height: 70px;
-        margin: 0px 0px 20px 0px;
-        padding: 20px 0px 0px 10px;
-        font-size: 40px;
-        background-color: red;
-        color: white;
-        display: block;
-        text-align: left;
-        border-radius: 15px;
-        font-weight: bold;
-    }
+#topright {
+    display: inline-block;
+    margin: 0px 0px 0px 430px;
+}
 
-    #navigate {
-        width: 180px;
-        height: 200px;
-        border-radius: 15px;
-        padding: 20px;
-        background-color: rgb(18, 149, 149);
-        color: aqua;
-        text-decoration: underline;
-        display: inline-block;
-        vertical-align: top;
-        margin: 0px 20px 0px 0px;
-    }
+#textsize {
+    font-size: 17px;
+    display: block;
+    font-weight:lighter;
+}
 
-    #main {
-        background-color: black;
-        color: white;
-        border-radius: 15px;
-        width: 695px;
-        height: 450px;
-        display: inline-block;
-        padding: 25px 10px 10px 20px;
-    }
-    
-    #bottom {
-        width: 950px;
-        height: 30px;
-        background-color: grey;
-        border-radius: 15px;
-        color: white;
-        margin: 20px 10px 0px 0px;
-        padding: 20px 0px 10px 20px;
-    }
+.size {
+    color: yellow;
+}
 
-    a {
-        color: aqua;
-    }
+#sizing {
+    color: white;
+}
 
-    h2 {
-        font-size: 25px;
-        font-weight: bold;
-    }
-    .example {
-        color: purple;
-    }
-    .highlight {
-        color: aqua;
-        text-decoration: underline;
-    }
-    
-    ul {
-        padding-left: 20px;
-    }
+#seperate {
+    color: black;
+}
+
+#search {
+    background-color: rgb(71, 71, 71);
+    border-radius: 10px;
+    width: 180px;
+    display:block;
+    text-align: center;
+    padding: 15px 20px;
+    color: grey;
+}
+
+#textbox {
+    height: 30px;
+    width: 140px;
+    text-align: center;
+}
+
+#submitbutton {
+    background-color: rgb(46, 87, 149);
+    border-radius: 5px;
+}
+
+#tabs {
+    display: block;
+    background-color: rgb(46, 87, 149);
+    margin: 40px 50px 20px 50px;
+    padding: 10px 0px;
+    text-align: center;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
+}
+
+#tabs a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#sidebar {
+    margin: 0px;
+    padding: 0px;
+    display:inline-block;
+    text-align: center;
+    list-style-position: inside;
+    color: yellow;
+}
+
+#sidebar a {
+    color: white;
+}
+#sidebar li {
+    margin: 10px 0px;
+}
+
+#maincontent{
+display: inline-block;
+margin: 20px 50px 30px 20px;
+text-align: center;
+width: 700px;
+vertical-align: top;
+}
+
+#p1{
+color:white;
+}
+
+#p2{
+    color:goldenrod;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#p3{
+    color: white;
+    font-size: 15px;
+}
+
+#midsection{
+/*vertical-align: top;
+*/}
+
+#midsection div{
+    display: inline-block;
+    margin: 15px 25px 20px 25px;
+    border-top: 5px solid lightskyblue;
+    width: 430px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#midsection div a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+#footer {
+    background-color: rgb(0, 53, 121);
+    text-align: center;
+    padding: 50px 10px 5px 10px;
+}
+#footer li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+#footer a {
+    color: lightblue;
+    text-decoration: none;
+    margin: 0px auto;
+}
+
+#footer p {
+    color: lightblue;
+}
