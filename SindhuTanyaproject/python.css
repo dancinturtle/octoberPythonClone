@@ -1,0 +1,161 @@
+/*CSS reset settings here*/
+*{margin: 0.5px;
+padding: 10px;
+   }
+   .wrapper{
+    width: 950px;
+    background-color:#2E5173;
+    
+   }
+
+   .search{
+    width: 203px;
+    height: 81px;
+    background-color:#2E5173;
+    vertical-align: text-top;
+    float: right;
+    display: inline-block;
+    padding: 5px;
+   }
+
+   #input1{
+       padding: 4px;
+       text-align: right;
+   }
+    button{
+        padding: 4px;
+    }
+
+   #block{
+       height: 32px;
+       width: 181px;
+       background-color: black;
+       border-radius: 10px;
+       margin: 0.5px;
+    }
+
+    .subblock{
+        background-color: white;
+    }
+
+   .header{
+    height: 32px;
+    background-color:#527EA9;
+   }
+
+   .header ul li{
+       display: inline;
+       vertical-align: center;
+   }
+
+   .navigation{
+    height: 300px;
+    width: 200px;
+    background-color:#2E5173;
+    margin-top: 10px;
+    display: inline-block;
+
+   }
+   .main_content{
+    height: 301px;
+    width: 674px;
+    background-color:#2E5173;
+    display: inline-block;
+    vertical-align: text-top;
+    text-align:center;
+    margin:0 auto;
+    margin: 10px;
+    display:inline-block;
+    vertical-align:top; 
+   }
+   .main_content p{
+       color: white;
+   }
+   .main_content h4{
+    color:yellow;
+   }
+
+   .navigation a{
+       color: white;
+   }
+   .navigation ul{
+    line-height: 165%;
+    text-align: center
+   }
+
+   .Applications{
+    height: 190px;
+    width: 190px;
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 5px;
+    text-align:center;
+    margin:0 auto;
+    margin: 10px;
+    display:inline-block;
+    vertical-align:top; 
+
+   }
+   .getting started{
+    height: 300px;
+    width: 200px;
+    background-color: yellow;
+    display: inline-block
+   }
+   
+   .advertisement{
+    height: 100px;
+    width: 634px;
+    background-color:7DA7D1;
+    margin-top:20px;
+   }
+/*CSS reset settings here*/
+*{
+    margin: 0.5px;
+    padding: 10px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color:#2E5173;
+    margin: 0px auto;
+   
+   }
+   #header{
+    height: 150px;
+    background-color:527EA9;
+   }
+   #navigation{
+    height: 300px;
+    width: 200px;
+    background-color:#2E5173;
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: text-top;
+   }
+   #main_content{
+    height: 400px;
+    width: 685px;
+    background-color:#2E5173;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 10px;
+   }
+   .Applications{
+    height: 190px;
+    width: 190px;
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 5px;
+   }
+   .Getting Started{
+    height: 190px;
+    width: 190px;
+    display: inline-block;
+    margin-left: 5px;
+   }
+   #advertisement{
+    height: 100px;
+    width: 634px;
+    background-color:#7DA7D1;
+    margin-top:20px;
+   }
