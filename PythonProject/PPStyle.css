@@ -1,0 +1,144 @@
+.wrapper{
+	background-color:#265175;
+}
+.container {
+	width: 970px;
+	margin: 0 auto;
+}
+.botWrapper{
+	background-color:white;
+}
+.botContainer {
+	width: 970px;
+	margin: 0 auto;
+}
+#spanInfo{
+	color:blue;
+}
+#header{
+	background:#265175;
+	display:inline-block;
+	margin-left:30px;
+}
+
+.opbar{
+	width:23%;
+	height:105px;
+	/*background-color:#444444;*/
+	display:inline-block;
+	margin:-80px 0px 0px 675px;
+	text-align: right;
+	padding-right: 5px;
+	border-radius:3px;
+}
+.classsize{
+	color:white;}
+}
+.logo{
+	width:20%;
+	height:60px;
+	/*background-color:#265175;*/
+	display:inline-block;
+	margin:0px 108px 10px 38px;
+}
+.searchbar{
+	background-color:#444444;		
+	padding:10px 185px 45px 10px;
+	margin:0px 75px -10px 0px;
+	border-radius: 7px;
+}
+
+.navbar li{
+	display:inline-block;
+	height:50px;
+	width:15%;
+	background-color:#3A77AB;
+	text-align:center;
+	margin:0px -2px -10px -2px;
+	padding:15px 2px 0px 10px;
+	font-family:arial;
+	font-size:20px;
+	color:white;
+	border-radius: 1px;
+	line-height:2;
+
+}
+#links {
+	width:25%;
+	height:200px;
+	background-color:#265175;
+	display:inline-block;
+	margin-left:45px;
+	vertical-align: top;
+	text-align: center;
+	font-family:arial;
+	font-size:14px;
+	color:white;
+	text-decoration: underline;
+	line-height:1.75;
+}
+.maincont{
+	text-align: right;
+	height:200px;
+	width:55%;
+	background-color:#265175;
+	display:inline-block;
+	margin-left:100px;
+	text-align: center;
+	line-height: 14px;
+}
+
+.conttext{
+	color:white;
+	font:12px;
+}
+.quote{
+	font-size: 16px;
+	line-height: 16	px;
+	color: gold;
+}
+
+
+#bottominfo{
+	height:300px;
+	width:100%;
+	background-color:white;
+	display:inline-block;
+}
+.section{
+	height:275px;
+	width:45%;
+	background-color:white;
+	display:inline-block;
+	margin:10px -5px 20px 39px;
+	border-top: 5px solid #265175;
+	text-align: center;
+	vertical-align: top;
+}
+.apphead{
+		display:inline-block;
+		font-size:18px;
+		color:black;
+}
+.appinfo{
+		display:inline-block;
+		font-size:14px;
+		color:black;
+}
+
+.footer{
+	height:100px;
+	width:100%;
+	padding-top: 25px;	
+	background:#265175;
+	text-align: center;
+}
+.foot{
+	text-align: center;
+	display:inline;
+	font-size:16px;
+	margin:0px 10px;
+}
+.copy{
+	font-size:10px;
+}
