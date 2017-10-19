@@ -1,0 +1,34 @@
+.container {
+    background-color: #145174;
+    width: 970px;
+}
+#logo_search {
+    padding-top: 20px;
+}
+
+#logo, #search {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#search {
+    margin-left: 450px;
+    background: #444444;
+    height: 46px;
+    width: 183px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 26px;
+}  
+#search_bar, #gobtn{
+    display: inline-block;
+
+}
+
+#menubar nav a {
+        text-decoration: none;
+        background: #3880AA;
+        height: 50px;
+        width: 80%;
+        text-align: center;
+}
