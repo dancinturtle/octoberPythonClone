@@ -73,16 +73,20 @@ html {
     width: 30%;
     text-align: right;
     background-color: #1E2A33;
-    margin-left: 70%;
+    margin-left: 48%;
     border-radius: 7px;
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 10px;
+    vertical-align: bottom;
+
 }
 
 #search_bar input {
     height: 30px;
     width: 300px;
     vertical-align: bottom;
+    font-size: 1em
 }
 
 .search_class {
@@ -92,6 +96,7 @@ html {
 
 #socialize {
     color: #FCFCFC;
+    vertical-align: super;
 }
 
 #carousel {
@@ -117,6 +122,14 @@ html {
     vertical-align: top;
     padding-left: 20px;
     margin-left: -4px;
+}
+
+#right_carousel h2 {
+    color: #E8C25D;
+}
+
+#right_carousel p a {
+    color: #E8C25D;
 }
 
 #info {
